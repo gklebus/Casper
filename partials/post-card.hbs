@@ -21,8 +21,9 @@
         <a class="post-card-content-link" href="{{url}}">
 
             <header class="post-card-header">
+                <time class="post-card-tags" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMMM YYYY"}}</time>
                 {{#if primary_tag}}
-                    <span class="post-card-tags">{{primary_tag.name}}</span>
+                   <span class="date-divider">/</span> <span class="post-card-tags">{{primary_tag.name}}</span>
                 {{/if}}
                 <h2 class="post-card-title">{{title}}</h2>
             </header>
