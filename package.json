@@ -1,7 +1,7 @@
 {
-    "name": "casper",
-    "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
-    "demo": "https://demo.ghost.io",
+    "name": "casper-3x2-photo",
+    "description": "Theme for https://3x2.photo/ personal blog. Based on Casper, the default theme for Ghost",
+    "demo": "https://3x2.photo",
     "version": "2.11.2",
     "engines": {
         "ghost": ">=2.0.0",
